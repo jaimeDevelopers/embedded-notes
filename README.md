@@ -6,33 +6,33 @@ Notes written for an STM32 (NUCLEO-F746ZG) learning path on Ubuntu, from the too
 
 ## 1. Chapters
 
-|| # ||| File ||| Topic ||
-|---|---|---|---|
-|| 00 ||| `00_toolchain.md` ||| Compilation stages, ELF, linker scripts, startup, newlib, CRC, reproducible builds ||
-|| 01 ||| `01_make.md` ||| GNU Make in full, with an STM32 Makefile ||
-|| 02 ||| `02_cmake.md` ||| CMake: targets, toolchain files, presets, VS Code ||
-|| 03 ||| `03_cortex_m.md` ||| Registers, modes, memory model, NVIC, faults, SysTick, FPU, MPU, caches, Thumb-2 intro ||
-|| 04 ||| `04_debugging.md` ||| ST-LINK, OpenOCD, GDB, Cortex-Debug, post-mortem, logging ||
-|| 05 ||| `05_c.md` ||| Embedded C: types, `volatile`, UB, atomicity, patterns ||
-|| 06 ||| `06_cpp.md` ||| Embedded C++: RAII, `constexpr`, templates, what to disable ||
-|| 07 ||| `07_peripherals.md` ||| Clocks, GPIO/EXTI, UART/DMA, timers, ADC, SPI/I2C, watchdog (register level) ||
-|| 08 ||| `08_architecture.md` ||| Layers, HAL design, execution models, FSMs, tests, bootloader overview ||
-|| 09 ||| `09_zephyr.md` ||| Zephyr RTOS: west, Kconfig, devicetree, kernel, tips and tricks ||
-|| 10 ||| `10_electronics.md` ||| Electronics, datasheets, schematics, instruments, hardware debugging ||
-|| 11 ||| `11_protocols.md` ||| Framing/CRC/COBS, UART, SPI, I2C, CAN, USB, Ethernet, MQTT, Modbus ||
-|| 12 ||| `12_freertos.md` ||| FreeRTOS in depth on the Cortex-M7 ||
-|| 13 ||| `13_control_dsp.md` ||| Sampling, filters, FFT, PID, estimation, CMSIS-DSP ||
-|| 14 ||| `14_testing_quality.md` ||| Unit/HIL tests, coverage, static analysis, fuzzing, CI ||
-|| 15 ||| `15_low_power.md` ||| Power modes, measurement, battery design ||
-|| 16 ||| `16_bootloader_security.md` ||| Flash, bootloaders, OTA, secure boot, security practices ||
-|| 17 ||| `17_python_tools.md` ||| Python tooling: serial, ELF/map parsing, code generation, HIL ||
-|| 18 ||| `18_assembly.md` ||| Thumb-2 assembly, reading compiler output ||
-|| 19 ||| `19_advanced_toolchain.md` ||| Advanced CMake, linker scripts, binary tools ||
-|| 20 ||| `20_rust_embedded.md` ||| Embedded Rust with Embassy and probe-rs ||
-|| 21 ||| `21_pcb_design.md` ||| PCB design with KiCad ||
-|| 22 ||| `22_embedded_linux.md` ||| Embedded Linux: Buildroot, Yocto, userspace hardware access ||
-|| 90 ||| `90_appendix_linux_terminal.md` ||| Terminal, shortcuts, tmux, git, serial tools ||
-|| 91 ||| `91_appendix_glossary.md` ||| Glossary of terms and acronyms ||
+| # | File | Topic |
+|---|---|---|
+| 00 | `00_toolchain.md` | Compilation stages, ELF, linker scripts, startup, newlib, CRC, reproducible builds |
+| 01 | `01_make.md` | GNU Make in full, with an STM32 Makefile |
+| 02 | `02_cmake.md` | CMake: targets, toolchain files, presets, VS Code |
+| 03 | `03_cortex_m.md` | Registers, modes, memory model, NVIC, faults, SysTick, FPU, MPU, caches, Thumb-2 intro |
+| 04 | `04_debugging.md` | ST-LINK, OpenOCD, GDB, Cortex-Debug, post-mortem, logging |
+| 05 | `05_c.md` | Embedded C: types, `volatile`, UB, atomicity, patterns |
+| 06 | `06_cpp.md` | Embedded C++: RAII, `constexpr`, templates, what to disable |
+| 07 | `07_peripherals.md` | Clocks, GPIO/EXTI, UART/DMA, timers, ADC, SPI/I2C, watchdog (register level) |
+| 08 | `08_architecture.md` | Layers, HAL design, execution models, FSMs, tests, bootloader overview |
+| 09 | `09_zephyr.md` | Zephyr RTOS: west, Kconfig, devicetree, kernel, tips and tricks |
+| 10 | `10_electronics.md` | Electronics, datasheets, schematics, instruments, hardware debugging |
+| 11 | `11_protocols.md` | Framing/CRC/COBS, UART, SPI, I2C, CAN, USB, Ethernet, MQTT, Modbus |
+| 12 | `12_freertos.md` | FreeRTOS in depth on the Cortex-M7 |
+| 13 | `13_control_dsp.md` | Sampling, filters, FFT, PID, estimation, CMSIS-DSP |
+| 14 | `14_testing_quality.md` | Unit/HIL tests, coverage, static analysis, fuzzing, CI |
+| 15 | `15_low_power.md` | Power modes, measurement, battery design |
+| 16 | `16_bootloader_security.md` | Flash, bootloaders, OTA, secure boot, security practices |
+| 17 | `17_python_tools.md` | Python tooling: serial, ELF/map parsing, code generation, HIL |
+| 18 | `18_assembly.md` | Thumb-2 assembly, reading compiler output |
+| 19 | `19_advanced_toolchain.md` | Advanced CMake, linker scripts, binary tools |
+| 20 | `20_rust_embedded.md` | Embedded Rust with Embassy and probe-rs |
+| 21 | `21_pcb_design.md` | PCB design with KiCad |
+| 22 | `22_embedded_linux.md` | Embedded Linux: Buildroot, Yocto, userspace hardware access |
+| 90 | `90_appendix_linux_terminal.md` | Terminal, shortcuts, tmux, git, serial tools |
+| 91 | `91_appendix_glossary.md` | Glossary of terms and acronyms |
 
 ---
 
